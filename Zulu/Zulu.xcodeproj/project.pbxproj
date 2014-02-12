@@ -212,6 +212,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "JebteK, LLC";
 				TargetAttributes = {
+					49F61EA318ABAEDA0030562E = {
+						DevelopmentTeam = ZRYHK2DL98;
+					};
 					49F61ECB18ABAEDA0030562E = {
 						TestTargetID = 49F61EA318ABAEDA0030562E;
 					};
@@ -393,6 +396,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Zulu/Zulu-Prefix.pch";
 				INFOPLIST_FILE = "Zulu/Zulu-Info.plist";
@@ -407,6 +411,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Zulu/Zulu-Prefix.pch";
 				INFOPLIST_FILE = "Zulu/Zulu-Info.plist";
