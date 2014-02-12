@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49F61EA818ABAEDA0030562E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F61EA718ABAEDA0030562E /* Foundation.framework */; };
+		49F61EAA18ABAEDA0030562E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F61EA918ABAEDA0030562E /* CoreGraphics.framework */; };
+		49F61EAC18ABAEDA0030562E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F61EAB18ABAEDA0030562E /* UIKit.framework */; };
+		49F61EAE18ABAEDA0030562E /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F61EAD18ABAEDA0030562E /* SpriteKit.framework */; };
+		49F61EB418ABAEDA0030562E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49F61EB218ABAEDA0030562E /* InfoPlist.strings */; };
+		49F61EB618ABAEDA0030562E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F61EB518ABAEDA0030562E /* main.m */; };
+		49F61EBA18ABAEDA0030562E /* JTZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F61EB918ABAEDA0030562E /* JTZAppDelegate.m */; };
+		49F61EBD18ABAEDA0030562E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F61EBB18ABAEDA0030562E /* Main.storyboard */; };
+		49F61EC018ABAEDA0030562E /* JTZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F61EBF18ABAEDA0030562E /* JTZViewController.m */; };
+		49F61EC318ABAEDA0030562E /* JTZMyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F61EC218ABAEDA0030562E /* JTZMyScene.m */; };
+		49F61EC518ABAEDA0030562E /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F61EC418ABAEDA0030562E /* Spaceship.png */; };
+		49F61EC718ABAEDA0030562E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F61EC618ABAEDA0030562E /* Images.xcassets */; };
+		49F61ECE18ABAEDA0030562E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F61ECD18ABAEDA0030562E /* XCTest.framework */; };
+		49F61ECF18ABAEDA0030562E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F61EA718ABAEDA0030562E /* Foundation.framework */; };
+		49F61ED018ABAEDA0030562E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F61EAB18ABAEDA0030562E /* UIKit.framework */; };
+		49F61ED818ABAEDA0030562E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49F61ED618ABAEDA0030562E /* InfoPlist.strings */; };
+		49F61EDA18ABAEDA0030562E /* ZuluTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F61ED918ABAEDA0030562E /* ZuluTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49F61ED118ABAEDA0030562E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49F61E9C18ABAEDA0030562E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49F61EA318ABAEDA0030562E;
+			remoteInfo = Zulu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49F61EA418ABAEDA0030562E /* Zulu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zulu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F61EA718ABAEDA0030562E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		49F61EA918ABAEDA0030562E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		49F61EAB18ABAEDA0030562E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		49F61EAD18ABAEDA0030562E /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		49F61EB118ABAEDA0030562E /* Zulu-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zulu-Info.plist"; sourceTree = "<group>"; };
+		49F61EB318ABAEDA0030562E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49F61EB518ABAEDA0030562E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49F61EB718ABAEDA0030562E /* Zulu-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zulu-Prefix.pch"; sourceTree = "<group>"; };
+		49F61EB818ABAEDA0030562E /* JTZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTZAppDelegate.h; sourceTree = "<group>"; };
+		49F61EB918ABAEDA0030562E /* JTZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTZAppDelegate.m; sourceTree = "<group>"; };
+		49F61EBC18ABAEDA0030562E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49F61EBE18ABAEDA0030562E /* JTZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTZViewController.h; sourceTree = "<group>"; };
+		49F61EBF18ABAEDA0030562E /* JTZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTZViewController.m; sourceTree = "<group>"; };
+		49F61EC118ABAEDA0030562E /* JTZMyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTZMyScene.h; sourceTree = "<group>"; };
+		49F61EC218ABAEDA0030562E /* JTZMyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTZMyScene.m; sourceTree = "<group>"; };
+		49F61EC418ABAEDA0030562E /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		49F61EC618ABAEDA0030562E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		49F61ECC18ABAEDA0030562E /* ZuluTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZuluTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F61ECD18ABAEDA0030562E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		49F61ED518ABAEDA0030562E /* ZuluTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZuluTests-Info.plist"; sourceTree = "<group>"; };
+		49F61ED718ABAEDA0030562E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		49F61ED918ABAEDA0030562E /* ZuluTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZuluTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F61EA118ABAEDA0030562E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F61EAA18ABAEDA0030562E /* CoreGraphics.framework in Frameworks */,
+				49F61EAC18ABAEDA0030562E /* UIKit.framework in Frameworks */,
+				49F61EAE18ABAEDA0030562E /* SpriteKit.framework in Frameworks */,
+				49F61EA818ABAEDA0030562E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F61EC918ABAEDA0030562E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F61ECE18ABAEDA0030562E /* XCTest.framework in Frameworks */,
+				49F61ED018ABAEDA0030562E /* UIKit.framework in Frameworks */,
+				49F61ECF18ABAEDA0030562E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F61E9B18ABAEDA0030562E = {
+			isa = PBXGroup;
+			children = (
+				49F61EAF18ABAEDA0030562E /* Zulu */,
+				49F61ED318ABAEDA0030562E /* ZuluTests */,
+				49F61EA618ABAEDA0030562E /* Frameworks */,
+				49F61EA518ABAEDA0030562E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F61EA518ABAEDA0030562E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F61EA418ABAEDA0030562E /* Zulu.app */,
+				49F61ECC18ABAEDA0030562E /* ZuluTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F61EA618ABAEDA0030562E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49F61EA718ABAEDA0030562E /* Foundation.framework */,
+				49F61EA918ABAEDA0030562E /* CoreGraphics.framework */,
+				49F61EAB18ABAEDA0030562E /* UIKit.framework */,
+				49F61EAD18ABAEDA0030562E /* SpriteKit.framework */,
+				49F61ECD18ABAEDA0030562E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49F61EAF18ABAEDA0030562E /* Zulu */ = {
+			isa = PBXGroup;
+			children = (
+				49F61EB818ABAEDA0030562E /* JTZAppDelegate.h */,
+				49F61EB918ABAEDA0030562E /* JTZAppDelegate.m */,
+				49F61EBB18ABAEDA0030562E /* Main.storyboard */,
+				49F61EBE18ABAEDA0030562E /* JTZViewController.h */,
+				49F61EBF18ABAEDA0030562E /* JTZViewController.m */,
+				49F61EC118ABAEDA0030562E /* JTZMyScene.h */,
+				49F61EC218ABAEDA0030562E /* JTZMyScene.m */,
+				49F61EC418ABAEDA0030562E /* Spaceship.png */,
+				49F61EC618ABAEDA0030562E /* Images.xcassets */,
+				49F61EB018ABAEDA0030562E /* Supporting Files */,
+			);
+			path = Zulu;
+			sourceTree = "<group>";
+		};
+		49F61EB018ABAEDA0030562E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49F61EB118ABAEDA0030562E /* Zulu-Info.plist */,
+				49F61EB218ABAEDA0030562E /* InfoPlist.strings */,
+				49F61EB518ABAEDA0030562E /* main.m */,
+				49F61EB718ABAEDA0030562E /* Zulu-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49F61ED318ABAEDA0030562E /* ZuluTests */ = {
+			isa = PBXGroup;
+			children = (
+				49F61ED918ABAEDA0030562E /* ZuluTests.m */,
+				49F61ED418ABAEDA0030562E /* Supporting Files */,
+			);
+			path = ZuluTests;
+			sourceTree = "<group>";
+		};
+		49F61ED418ABAEDA0030562E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49F61ED518ABAEDA0030562E /* ZuluTests-Info.plist */,
+				49F61ED618ABAEDA0030562E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F61EA318ABAEDA0030562E /* Zulu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F61EDD18ABAEDA0030562E /* Build configuration list for PBXNativeTarget "Zulu" */;
+			buildPhases = (
+				49F61EA018ABAEDA0030562E /* Sources */,
+				49F61EA118ABAEDA0030562E /* Frameworks */,
+				49F61EA218ABAEDA0030562E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zulu;
+			productName = Zulu;
+			productReference = 49F61EA418ABAEDA0030562E /* Zulu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49F61ECB18ABAEDA0030562E /* ZuluTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F61EE018ABAEDA0030562E /* Build configuration list for PBXNativeTarget "ZuluTests" */;
+			buildPhases = (
+				49F61EC818ABAEDA0030562E /* Sources */,
+				49F61EC918ABAEDA0030562E /* Frameworks */,
+				49F61ECA18ABAEDA0030562E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49F61ED218ABAEDA0030562E /* PBXTargetDependency */,
+			);
+			name = ZuluTests;
+			productName = ZuluTests;
+			productReference = 49F61ECC18ABAEDA0030562E /* ZuluTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F61E9C18ABAEDA0030562E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JTZ;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "JebteK, LLC";
+				TargetAttributes = {
+					49F61ECB18ABAEDA0030562E = {
+						TestTargetID = 49F61EA318ABAEDA0030562E;
+					};
+				};
+			};
+			buildConfigurationList = 49F61E9F18ABAEDA0030562E /* Build configuration list for PBXProject "Zulu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F61E9B18ABAEDA0030562E;
+			productRefGroup = 49F61EA518ABAEDA0030562E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F61EA318ABAEDA0030562E /* Zulu */,
+				49F61ECB18ABAEDA0030562E /* ZuluTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F61EA218ABAEDA0030562E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F61EB418ABAEDA0030562E /* InfoPlist.strings in Resources */,
+				49F61EC718ABAEDA0030562E /* Images.xcassets in Resources */,
+				49F61EC518ABAEDA0030562E /* Spaceship.png in Resources */,
+				49F61EBD18ABAEDA0030562E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F61ECA18ABAEDA0030562E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F61ED818ABAEDA0030562E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F61EA018ABAEDA0030562E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F61EC018ABAEDA0030562E /* JTZViewController.m in Sources */,
+				49F61EB618ABAEDA0030562E /* main.m in Sources */,
+				49F61EBA18ABAEDA0030562E /* JTZAppDelegate.m in Sources */,
+				49F61EC318ABAEDA0030562E /* JTZMyScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49F61EC818ABAEDA0030562E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F61EDA18ABAEDA0030562E /* ZuluTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49F61ED218ABAEDA0030562E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49F61EA318ABAEDA0030562E /* Zulu */;
+			targetProxy = 49F61ED118ABAEDA0030562E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49F61EB218ABAEDA0030562E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F61EB318ABAEDA0030562E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		49F61EBB18ABAEDA0030562E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F61EBC18ABAEDA0030562E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49F61ED618ABAEDA0030562E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F61ED718ABAEDA0030562E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F61EDB18ABAEDA0030562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		49F61EDC18ABAEDA0030562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F61EDE18ABAEDA0030562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zulu/Zulu-Prefix.pch";
+				INFOPLIST_FILE = "Zulu/Zulu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		49F61EDF18ABAEDA0030562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zulu/Zulu-Prefix.pch";
+				INFOPLIST_FILE = "Zulu/Zulu-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		49F61EE118ABAEDA0030562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zulu.app/Zulu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zulu/Zulu-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZuluTests/ZuluTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		49F61EE218ABAEDA0030562E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Zulu.app/Zulu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Zulu/Zulu-Prefix.pch";
+				INFOPLIST_FILE = "ZuluTests/ZuluTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F61E9F18ABAEDA0030562E /* Build configuration list for PBXProject "Zulu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F61EDB18ABAEDA0030562E /* Debug */,
+				49F61EDC18ABAEDA0030562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F61EDD18ABAEDA0030562E /* Build configuration list for PBXNativeTarget "Zulu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F61EDE18ABAEDA0030562E /* Debug */,
+				49F61EDF18ABAEDA0030562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49F61EE018ABAEDA0030562E /* Build configuration list for PBXNativeTarget "ZuluTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F61EE118ABAEDA0030562E /* Debug */,
+				49F61EE218ABAEDA0030562E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F61E9C18ABAEDA0030562E /* Project object */;
+}
